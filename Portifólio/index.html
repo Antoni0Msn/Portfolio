@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Antonio Martins de Souza Neto — Portfólio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.png" type="image/png">
+
+</head>
+
+<body>
+    <header>
+        <nav class="wrap">
+            <div class="logo">AMSN<span>.</span>dev</div>
+            <div class="navlinks">
+                <a href="#routes">rotas</a>
+                <a href="#sobre">sobre</a>
+                <a href="#contato">contato</a>
+                <a href="pt.html">🇧🇷 PT</a>
+            </div>
+        </nav>
+    </header>
+    <main class="wrap">
+
+        <section class="hero">
+            <div class="hero-kicker"><span class="dot"></span>status: open to opportunities</div>
+
+            <div class="terminal">
+                <div class="terminal-bar">
+                    <span class="tb-dot"></span><span class="tb-dot"></span><span class="tb-dot"></span>
+                    <span class="terminal-title">bash — GET /antonio</span>
+                </div>
+                <div class="terminal-body">
+                    <div class="prompt-line"><span class="sym">$</span> curl <span id="typed"></span><span
+                            class="cursor" id="cursor"></span></div>
+                    <div class="response" id="response">
+                        <pre><span class="json-punc">{</span>
+  <span class="json-key">"name"</span><span class="json-punc">:</span> <span class="json-str">"Antonio Martins de Souza Neto"</span><span class="json-punc">,</span>
+  <span class="json-key">"role"</span><span class="json-punc">:</span> <span class="json-str">"Software Engineering Student | Backend Developer"</span><span class="json-punc">,</span>
+  <span class="json-key">"builds"</span><span class="json-punc">:</span> <span class="json-punc">[</span><span class="json-str">"APIs"</span><span class="json-punc">,</span> <span class="json-str">"2D games"</span><span class="json-punc">]</span><span class="json-punc">,</span>
+  <span class="json-key">"stack"</span><span class="json-punc">:</span> <span class="json-punc">[</span><span class="json-str">"C#"</span><span class="json-punc">,</span> <span class="json-str">"Unity"</span><span class="json-punc">,</span> <span class="json-str">".NET"</span><span class="json-punc">]</span>
+<span class="json-punc">}</span></pre>
+                        <div class="status-line"><span class="status-ok">● 200 OK</span> — 12ms</div>
+                    </div>
+                </div>
+            </div>
+
+            <p class="hero-sub">
+                <strong>Antonio Martins de Souza Neto</strong> — Software Engineering student moving between
+                back-end and game development. From services that orchestrate APIs to combat systems built in C#/Unity.
+            </p>
+            <div class="hero-actions">
+
+                <a href="assets/resume-EN.pdf" target="_blank" class="btn">
+                    📄 Resume
+                </a>
+
+                <a href="https://github.com/Antoni0Msn" target="_blank" class="btn">
+                    💻 GitHub
+                </a>
+
+                <a href="https://www.linkedin.com/in/antoniomartins-neto/" target="_blank" class="btn">
+                    🔗 LinkedIn
+                </a>
+
+                <a href="#contato" class="btn">
+                    ✉ Contact
+                </a>
+
+            </div>
+            <div class="hero-stack">
+                <span>C#</span>
+                <span>.NET</span>
+                <span>ASP.NET</span>
+                <span>Unity</span>
+                <span>SQL</span>
+                <span>Git</span>
+                <span>Docker</span>
+                <span>Python</span>
+                <span>N8N</span>
+                <span>AI Automation</span>
+                <span>REST API</span>
+                <span>PostgreSQL</span>
+            </div>
+        </section>
+
+        <section id="routes">
+            <div class="sec-head">
+                <span class="sec-tag">02</span>
+                <span class="sec-title">// available routes</span>
+            </div>
+
+            <div class="route">
+                <div class="route-head">
+                    <span class="method">GET</span>
+                    <span class="path">/projects/nexus-api</span>
+                    <span class="status-badge">200 OK</span>
+                </div>
+                <div class="route-body">
+                    <p class="route-desc">
+                        A web service that centralizes access to multiple external APIs through a single entry point —
+                        letting companies query several sources without managing separate integrations.
+                    </p>
+                    <div class="route-tags">
+                        <span class="tag">API Gateway</span>
+                        <span class="tag">Backend</span>
+                        <span class="tag">Integration</span>
+                    </div>
+                    <div class="route-links">
+                        <a class="btn" href="https://github.com/Antoni0Msn/Trabalho-Nexus-Api" target="_blank"
+                            rel="noopener">↗ view repository</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="route game">
+                <div class="route-head">
+                    <span class="method">GET</span>
+                    <span class="path">/games/top-down-rpg</span>
+                    <span class="status-badge">200 OK</span>
+                </div>
+                <div class="route-body">
+                    <p class="route-desc">
+                        A 2D top-down RPG built in Unity/C#, featuring a combat and damage system with visual feedback
+                        (enemy hit-flash effect) built on top of a centralized stats architecture.
+                    </p>
+                    <div class="route-tags">
+                        <span class="tag">Unity</span>
+                        <span class="tag">C#</span>
+                        <span class="tag">Game Dev</span>
+                    </div>
+                    <div class="route-links">
+                        <a class="btn" href="https://tonplayc.itch.io/game-trainer-v01" target="_blank" rel="noopener">↗
+                            play on itch.io</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="route-more">
+                // more routes under construction — new projects (web, API) in progress.
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="sec-head">
+                <span class="sec-tag">03</span>
+                <span class="sec-title">// about</span>
+            </div>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>
+                        I'm training as a <strong>Software Engineer</strong>, building projects that range from
+                        <strong>back-end infrastructure</strong> — like services that aggregate and organize multiple
+                        APIs —
+                        to <strong>game systems</strong> built from scratch in Unity.
+                    </p>
+                    <p>
+                        I like understanding how the pieces connect: whether it's routing a request between services,
+                        or the damage logic and visual feedback of an enemy being hit. I'm always looking for
+                        new projects to apply and expand that range.
+                    </p>
+                </div>
+                <div class="pkg-list">
+                    <div class="pkg-row"><span class="pkg-name">C#</span><span class="pkg-ver">core</span></div>
+                    <div class="pkg-row"><span class="pkg-name">Unity</span><span class="pkg-ver">gamedev</span></div>
+                    <div class="pkg-row"><span class="pkg-name">APIs / Integrations</span><span
+                            class="pkg-ver">backend</span></div>
+                    <div class="pkg-row"><span class="pkg-name">Git / GitHub</span><span class="pkg-ver">workflow</span>
+                    </div>
+                    <div class="pkg-row"><span class="pkg-name">Software Engineering</span><span class="pkg-ver">in
+                            progress</span></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="sec-head">
+                <span class="sec-tag">04</span>
+                <span class="sec-title">// contact</span>
+            </div>
+            <div class="contact-term">
+                <div class="contact-row"><span class="flag">--email</span> <a
+                        href="mailto:martinsdesouza2005@gmail.com">martinsdesouza2005@gmail.com</a></div>
+                <div class="contact-row"><span class="flag">--github</span> <a href="https://github.com/Antoni0Msn"
+                        target="_blank" rel="noopener">github.com/Antoni0Msn</a></div>
+                <div class="contact-row"><span class="flag">--linkedin</span> <a
+                        href="https://www.linkedin.com/in/antoniomartins-neto/" target="_blank"
+                        rel="noopener">linkedin.com/in/antoniomartins-neto</a></div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        © <span id="year"></span> Antonio Martins de Souza Neto — built with HTML, CSS, and coffee.
+    </footer>
+
+    <footer>
+        © <span id="year"></span> Antonio Martins de Souza Neto — construído com HTML, CSS e café.
+    </footer>
+    <script src="jsScript.js"></script>
+</body>
+
+</html>
